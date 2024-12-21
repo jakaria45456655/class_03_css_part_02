@@ -1,0 +1,336 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    background-color:navy;
+    padding: 10px;
+    color: white;
+    width: 98%;
+    margin: 25px auto;
+}
+.main_div{
+    width: 98%;
+    height: 100%;
+    margin:auto;
+    background-color: gray;
+}
+.hover_test-1{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.hover_test-1:hover{
+    background-color: green;
+    transition: all linear 1s;
+    transform: rotate(360deg);
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.hover_test-2{
+    background-color: rgb(36, 126, 55);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.hover_test-2:hover{
+    background-color: rgb(54, 59, 54);
+    transition: all ease 1s;
+    transform: matrix(360deg);
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.hover_test-3{
+    background-color: rgb(53, 7, 54);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.hover_test-3:hover{
+    background-color: rgb(73, 116, 73);
+    transition: all ease-in-out 1s;
+    transform: skew(15deg,15deg);
+}
+.hover_test-4{
+    background-color: rgb(71, 20, 20);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.hover_test-4:hover{
+    background-color: rgb(44, 44, 75);
+    transition: all linear 1s;
+    transform: skewX(360deg);
+}
+.hover_test-5{
+    background-color: rgb(87, 78, 78);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.hover_test-5:hover{
+    background-color: blue;
+    transition: all linear 1s;
+    transform: scaleY(1.2);
+}
+.hover_test-6{
+    background-color: rgb(11, 65, 35);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.hover_test-6:hover{
+    background-color: blue;
+    transition: all linear 1s;
+    transform: scaleX(1.2);
+}
+.hover_test-7{
+    background-color: rgb(46, 112, 63);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.hover_test-7:hover{
+    background-color: blue;
+    transition: all linear 1s;
+    transform: scale(.2, .1);
+}
+.hover_test-8{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.hover_test-8:hover{
+    background-color: blue;
+    transition: all linear 1s;;
+    transition: all linear 1s;
+    transform: scale(1,2);
+} 
+.main__parend-1{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.main__parend-2{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(25, 136, 99);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    
+}
+.main__parend-3{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(12, 40, 99);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.main__parend-4{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(86, 59, 112);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-top: 10px;
+}
+
+.main_one{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(35, 107, 50);
+    margin: auto;
+    position: relative;
+}
+.child_one{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(95, 35, 107);
+}
+.main_two{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(35, 107, 50);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.child_two{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(95, 35, 107);
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.main_Three{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(35, 107, 50);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.child_three{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(95, 35, 107);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.main_four{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(35, 107, 50);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.child_four{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(95, 35, 107);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.main_five{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(35, 107, 50);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.child_five{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(95, 35, 107);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main_six{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(35, 107, 50);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.child_six{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(95, 35, 107);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    transform: translateX(-50%);
+}
+.main_seven{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(35, 107, 50);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.child_seven{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(95, 35, 107);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    transform: translateX(-50%);
+}
+.pusdo__class{
+    position: relative;
+    text-align: center;
+}
+h2{
+    display:inline-block;
+    color: rgb(240, 6, 6);
+}
+h2:before{
+    content:"";
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-100px);
+    color: rgb(240, 6, 6);
+}
+h2:after{
+    content:"";
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateX(0px);
+    
+}
+.pusdo__class_2{
+    position: relative;
+    text-align: center;
+}
+h3{
+    display: inline-block;
+    margin-top: 20px;
+    color: blue;
+}
+h3:before{
+    content:"";
+    width: 2px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 48%;
+    transform: translateX(-5px);
+}
+.bangladesh-flug{
+    width: 70%;
+    background-color: green;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.bangladesh-flug-child{
+    width: 200px;
+    color: red;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transform: translate(-50%,-50%);
+}
+p{
+    text-align: center;
+    color: white;
+    background-color: navy;
+    padding: 20px;
+}
+
